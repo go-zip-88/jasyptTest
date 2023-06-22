@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping(value = "/jasypt")
+@CrossOrigin
 public class JasyptController {
 
     @Autowired
